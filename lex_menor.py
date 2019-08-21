@@ -7,7 +7,7 @@ def lex_menor(lista):
     lista_minusculas = []
 
     for item in lista:
-        item = item.lower()
+        item = item.lower() # Apagar esse linha para considerar maiúsculas e minúsculas
         lista_minusculas.append(item)
 
     lista_final = sorted(lista_minusculas)
