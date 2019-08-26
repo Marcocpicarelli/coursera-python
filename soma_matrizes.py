@@ -7,9 +7,9 @@ def soma_matrizes(m1, m2):
         return False
     else:
         nova_matriz = []
-        for i in range(linhas_m1):
+        for i in range(linhas_m1): # Percorre as linhas da matriz
             linha = []
-            for j in range(colunas_m1):
+            for j in range(colunas_m1): # Percorre colunas da matriz
                 soma = m1[i][j] + m2[i][j]
                 linha.append(soma)
             nova_matriz.append(linha)
