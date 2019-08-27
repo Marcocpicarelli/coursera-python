@@ -2,12 +2,17 @@
 
 import math # Importação do módulo math para usar raiz quadrada
 
-h = float(input("Digite o valor da altura do triângulo: "))
-b = float(input("Digite o valor da base do triângulo: "))
+def calcula_area_triangulo(b, h):
+    area = (b*h)/2
+    return area
 
-area = (b*h)/2
-hipotenusa = math.sqrt((b**2) + (h**2))
-perimetro = hipotenusa + b + h
+def calcula_perimetro_triangulo(b, h):
+    hipotenusa = math.sqrt((b**2) + (h**2))
+    perimetro = hipotenusa + b + h
+    return perimetro
 
-print("A área do seu triâgulo é " + str(area) + ".")
-print("O perímetro do seu triângulo é " + str(perimetro) + ".")
+x = float(input("Digite o valor da altura do triângulo: "))
+y = float(input("Digite o valor da base do triângulo: "))
+
+print(calcula_area_triangulo(x, y))
+print(calcula_perimetro_triangulo(x, y))

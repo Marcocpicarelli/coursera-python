@@ -19,7 +19,7 @@ def soma_hipotenusas(n): # Função que soma as hipotenusas
         b = 1
         while (a < n):
             while (b < n):
-                if (c2 == é_hipotenusa(a, b)): # Chamada da funação que calcula hipotenusa
+                if (c2 == é_hipotenusa(a, b)): # Chamada da função que calcula hipotenusa
                     #print(a, " - " ,b , " - " , c)
                     soma = soma + c
                     a = n

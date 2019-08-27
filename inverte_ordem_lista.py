@@ -1,3 +1,8 @@
+# Escreva um programa que recebe uma lista de
+# números inteiros e inverta a ordem dessa lista.
+# A sequência sempre termina pelo número 0.
+# Note que 0 (ZERO) não deve fazer parte da sequência.
+
 def inverte_ordem_lista():
     contador = -2
     lista = []

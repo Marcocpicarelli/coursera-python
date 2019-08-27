@@ -1,10 +1,15 @@
 # Programa que calcula o IMC do usuário
 
+def calcula_imc(altura, peso):
+    imc = peso / (altura*altura)
+    return imc    
+
 nome = input("Olá, qual seu nome? ")
-altura = input(nome + ", esse programa vai calcular o seu IMC. Por favor, digite qual é a sua altura em metros: ")
-altura = float(altura) # conversão de string para float
-peso = input(nome + ", agora digite qual o seu peso: ")
-peso = float(peso) # conversão de string para float
-imc = peso / (altura*altura)
-imc = str(imc)  # conversão de float para string
-print(nome + ", o seu IMC é " + imc)
+print(nome + ", esse programa vai calcular o seu IMC.")
+x = float(input("Por favor, digite a sua altura em metros: "))
+y = float(input("Agora digite o seu peso: "))
+
+print(calcula_imc(x, y))
+
+
+

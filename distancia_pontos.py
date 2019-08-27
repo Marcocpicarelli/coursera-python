@@ -2,14 +2,15 @@
 
 import math # Imporatação do módulo math para usar raiz quadrada
 
-x1 = int(input("Digite o valor do eixo x do primeiro ponto: "))
-y1 = int(input("Digite o valor do eixo y do primeiro ponto: "))
-x2 = int(input("Digite o valor do eixo x do segundo ponto: "))
-y2 = int(input("Digite o valor do eixo y do segundo ponto: "))
+def calcula_dist_pontos(x1, y1, x2, y2):
+    distancia = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+    return distancia
 
-distancia = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+a = int(input("Digite o valor do eixo x do primeiro ponto: "))
+b = int(input("Digite o valor do eixo y do primeiro ponto: "))
+c = int(input("Digite o valor do eixo x do segundo ponto: "))
+d = int(input("Digite o valor do eixo y do segundo ponto: "))
 
-if distancia >= 10:
-    print("A distância " + str(distancia) + " é maior ou igual a 10.")
-else:
-    print("A distância " + str(distancia) + " é menor que 10.")
+print(calcula_dist_pontos(a, b, c, d))
+
+

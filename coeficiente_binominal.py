@@ -16,14 +16,14 @@ def coef_binominal(n, k): # Definição de função que calcula o coeficiente bi
     coef = fatorial(n) / (fatorial(k) * (fatorial(n-k))) # Função fatorial chamada três vezes
     coef = int(coef)
 
-    print("O coeficiente binominal é " + str(coef) + ".")
+    return coef
 
 ############ INÍCIO DO PROGRAMA #############
 
 a = int(input("Digite o primeiro número: "))
 b = int(input("Digite o segundo número: "))
 
-coef = coef_binominal(a, b) # Chamada da função de coeficiente binominal
+print(coef_binominal(a, b)) # Chamada da função de coeficiente binominal
 
 
 

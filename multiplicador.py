@@ -1,12 +1,10 @@
-total = int(input("Quantos números você deseja multiplicar? "))
-           
-produto = 1
-valor = 1
-contador = 0
-            
-while contador < total:
-    valor = int(input("Digite um valor a ser multiplicado: "))
-    produto = produto * valor
-    contador = contador + 1
+# Multiplicador de números
 
-print("A multiplicação dos valores é " + str(produto) + ".")
+def multiplica_numeros(a, b):
+    produto = a * b
+    return produto
+
+x = int(input("Qual o primeiro número? "))
+y = int(input("Qual o segundo número? "))
+
+print(multiplica_numeros(x, y))

@@ -1,6 +1,6 @@
 ########## FUNÇÃO QUE CHECA SE É PRIMO ##########
 
-def éPrimo(y):
+def é_primo(y):
     divisor = 2
     eh_primo = False
 
@@ -18,7 +18,7 @@ def éPrimo(y):
 def maior_primo(x):
     aux = x
     while aux > 2:
-        if éPrimo(aux):
+        if é_primo(aux):
             return aux
         aux = aux - 1
     return 2

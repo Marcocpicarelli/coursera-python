@@ -20,7 +20,7 @@ def fahrenheit_celsius(f):
     c = ((f - 32) * 5) / 9
     return c
 
-# Conversor de temperatura em Celsius para Fahrenheit
+# Conversor de Celsius para Fahrenheit
 def celsius_fahrenheit(c):
     f = ((9 * c) / 5) + 32
     return f

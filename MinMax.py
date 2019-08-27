@@ -23,7 +23,7 @@ def testa_minima():
 def teste_pontual(temp, valor_esperado):
     valor_calculado = minima(temp)
     if valor_calculado != valor_esperado:
-        print("Valor errado para o array " + temp + "."
+        print("Valor errado para o array " + temp + ".")
         print("O valor esperado era: " + str(valor_esperado) + ". Valor calculado: " + str(valor_calculado) + ".")
 
 def maxima(temps):
