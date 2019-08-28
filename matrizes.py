@@ -110,7 +110,7 @@ def multiplica_matrizes(a, b):
     nova_matriz = []
 
     for linha in range(linhas_a): # Percorre as linhas da matriz
-        nova_matriz.append([]) #Começando nova linha
+        nova_matriz.append([]) # Começando nova linha
         for coluna in range(colunas_b): # Percorre colunas da matriz
             nova_matriz[linha].append(0) # Adiciona nova coluna na linha
             for i in range(colunas_a):
