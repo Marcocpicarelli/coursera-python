@@ -11,6 +11,6 @@ def soma_digitos(n):
     soma = soma + n
     return soma
 
-x = int(input("Digite o número que você quer somar os dígitos: "))
-
-print(soma_digitos(x))
+if __name__ == "__main__":
+    x = 462
+    print(soma_digitos(x))

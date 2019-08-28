@@ -20,7 +20,3 @@ def calcula_bhaskara(a, b, c): # Função que calcula bhaskara
         x1 = (-b + (math.sqrt(d))) / (2*a)
         x2 = (-b - (math.sqrt(d))) / (2*a)
         return 2, x1, x2
-
-###### INÍCIO DO PROGRAMA ######
-
-entrada_numeros() # Chamada da função que recebe a entrada dos números
