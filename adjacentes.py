@@ -1,3 +1,5 @@
+# Função que mostra os dígitos adjacentes iguais de um número
+
 def adjacentes(n):
 
     anterior = -1
